@@ -1,0 +1,132 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background: hsl(225 100% 94%);
+  font-family: "Red Hat Display", sans-serif;
+}
+.main {
+  width: 350px;
+  height: 505px;
+  background: #fff;
+  border-radius: 20px;
+  margin: 50px auto;
+}
+.first {
+  width: 100%;
+  height: 170px;
+  background: hsl(245, 92%, 57%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 16px;
+}
+.imgg {
+  width: 350px;
+  height: 170px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.second {
+  width: 100%;
+  height: 150px;
+  background: #fff;
+  color: rgb(143, 138, 138);
+}
+.second h2 {
+  text-align: center;
+  padding-top: 20px;
+  text-transform: capitalize;
+  color: #000;
+  font-size: 20px;
+}
+.second p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16;
+  line-height: 20px;
+}
+.third {
+  width: 80%;
+  height: 80px;
+  background: hsl(225, 100%, 98%);
+  margin: 10px auto;
+  border-radius: 20px;
+  display: flex;
+}
+.music {
+  width: 20%;
+  height: 80px;
+  /* background: brown; */
+}
+.music img {
+  margin: 15px 0px 0px 15px;
+}
+.annual {
+  width: 50%;
+  height: 80px;
+  /* background: blueviolet; */
+}
+.plan {
+  text-transform: capitalize;
+  /* text-align: center; */
+  padding: 10px;
+  font-size: 18px;
+  margin:12px 0px 0px 20px;
+}
+.dollar {
+  text-align: center;
+  color: rgb(116, 111, 111);
+  /* margin-top: -5px; */
+  margin:-8px 0px 0px 0px;
+}
+.change {
+  width: 25%;
+  height: 40px;
+  /* background:gray; */
+  margin-top:10px;
+}
+.change p {
+  padding: 20px;
+}
+.change a {
+  color: blue;
+  margin-right: 0px;
+  align-items: center;
+}
+.fourth {
+  width: 80%;
+  height: 40px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.fourth button {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: hsl(225, 90%, 40%);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0px 10px 8px rgb(193, 193, 201);
+}
+.fourth button:hover {
+  background: rgb(18, 182, 182);
+}
+.fifth {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.fifth button{
+  width:200px;
+  margin:20px 0px 20px 80px;
+  border:none;
+  background:none;
+  color: rgb(122, 102, 102);
+  font-size: 20px;
+}
